@@ -2079,6 +2079,58 @@ ol {
 	margin-bottom: 42px;
 }
 
+.sponsor-section {
+    padding: 60px 0;
+    background-color: #f1f1f1; /* Light gray background color */
+}
+
+.sponsor-section .section-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.sponsor-section .section-title h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.sponsor-section .section-title p {
+    font-size: 18px;
+    color: #777;
+}
+
+.sponsor-logos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.sponsor-logos ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.sponsor-logos ul li {
+    margin: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sponsor-logos ul li img {
+    max-width: 150px;
+    transition: transform 0.3s ease;
+}
+
+.sponsor-logos ul li img:hover {
+    transform: scale(1.1);
+}
+
 @media only screen and (min-width: 1200px) {
 	.container {
 		max-width: 1170px;
