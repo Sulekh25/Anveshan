@@ -222,6 +222,13 @@ ol {
 	display: flex;
 }
 
+.footer-anveshan {
+    font-weight: bold; /* Make the text bold */
+    font-size: 30px; /* Increase the font size */
+    margin-top: 10px; /* Optional: Add some margin for spacing */
+	color: white; /* Set the text color */
+}
+
 .header-section.header-normal {
 	border-bottom: 1px solid #e5e5e5;
 }
@@ -234,6 +241,11 @@ ol {
 
 .logo a {
 	display: inline-block;
+}
+
+.header-logo img {
+    width: 70px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
 }
 
 .nav-menu {
@@ -1035,8 +1047,8 @@ ol {
 
 .footer-section {
 	background: #171822;
-	padding-top: 50px;
-	padding-bottom: 60px;
+	padding-top: 25px;
+	padding-bottom: 50px;
 }
 
 .partner-logo {
@@ -1057,7 +1069,7 @@ ol {
 
 .footer-text {
 	text-align: center;
-	padding-top: 60px;
+	padding-top: 30px;
 }
 
 .footer-text .ft-logo {
@@ -1128,6 +1140,19 @@ ol {
 
 .footer-text .ft-social a:last-child {
 	margin-right: 0;
+}
+
+.footer-logo {
+    background-color: white; /* Set background color to white */
+    padding: 10px; /* Add padding around the image */
+    display: inline-block; /* Ensure the padding is applied correctly */
+    border-radius: 5px; /* Optional: Add border radius for rounded corners */
+	margin-top: 0;
+}
+
+.footer-logo img {
+    width: 100px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
 }
 
 .breadcrumb-section {
@@ -1585,6 +1610,14 @@ ol {
 	top: 20px;
 }
 
+.vc {
+    text-align: center;
+    margin: 5px 0;
+    font-size: 24px;
+    font-weight: bold;
+	color: #111111;
+}
+
 .blog-item.large-item {
 	height: 575px;
 }
@@ -1592,6 +1625,10 @@ ol {
 .blog-item.large-item .bi-tag {
 	left: 30px;
 	top: 30px;
+}
+
+.section-title .title-text h2 {
+    text-transform: uppercase;
 }
 
 .blog-item.large-item .bi-text {
